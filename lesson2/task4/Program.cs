@@ -14,4 +14,22 @@ while (i < array.Length)
     }
     i = i + 1;
 }
-Console.Write(max);
+Console.WriteLine(max);
+
+for (int j = 0; j < array.Length; j++)
+{
+    if (array[j] > max)
+    {
+        max = array[j];
+    }
+}
+Console.WriteLine(max);
+
+foreach (int e in array)
+{
+    if(e > max)
+    {
+        max = e;
+    }
+}
+Console.WriteLine(max);

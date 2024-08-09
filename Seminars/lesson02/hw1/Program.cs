@@ -9,9 +9,9 @@ int a = Convert.ToInt32(Console.ReadLine());
 
 if (a % 7 == 0 && a % 23 == 0)
 {
-    System.Console.WriteLine("yes");
+    System.Console.WriteLine($"a={a} => yes");
 }
 else
 {
-    System.Console.WriteLine("no");
+    System.Console.WriteLine($"a={a} => no");
 }

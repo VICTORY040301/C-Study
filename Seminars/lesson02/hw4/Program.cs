@@ -16,7 +16,7 @@ while (N > 0)
 {
     int current = N % 10;
     arr[j] = current;
-    // System.Console.Write($"{arr[j]}, ");
+    // System.Console.Write($"{arr[j]}, "); для вывода чисел в обратном порядке
     j++;
     N = N / 10;
 }

@@ -8,9 +8,10 @@ int counter = 0;
 
 foreach (var number in numbers)
 {
+    System.Console.Write($"{number} ");
     if (number > 20 && number < 90)
     {
         counter += 1;
     }
 }
-System.Console.WriteLine(counter);
+System.Console.WriteLine($"=> {counter}");
